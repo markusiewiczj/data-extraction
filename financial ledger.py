@@ -2,88 +2,142 @@ financial_ledger = {
     # Assets
     "Cash and Cash Equivalents": {
         "English": ["cash and cash equivalents", "cash", "cash on hand", "liquid assets", "treasury bills", "certificates of deposit", "undeposited receipts", "money market funds"],
-        "Dutch": ["contanten en kasequivalenten", "contanten", "liquide middelen", "kasgeld", "schatkistbiljetten", "certificaten van deposito", "niet-gedeponeerde ontvangsten", "geldmarktfondsen"]
+        "Dutch": ["contanten en kasequivalenten", "contanten", "liquide middelen", "kasgeld", "schatkistbiljetten", "certificaten van deposito", "niet-gedeponeerde ontvangsten", "geldmarktfondsen"],
+        "balance": "debit",
+        "id": "CashAndCashEquivalents",
+        "category": "assets"
     },
     "Marketable Securities": {
         "English": ["marketable securities", "commercial paper", "treasury notes", "money market instruments"],
-        "Dutch": ["verhandelbare effecten", "handelspapier", "schatkistpromessen", "geldmarktinstrumenten"]
+        "Dutch": ["verhandelbare effecten", "handelspapier", "schatkistpromessen", "geldmarktinstrumenten"],
+        "balance": "debit",
+        "id": "MarketableSecurities",
+        "category": "assets"
     },
     "Accounts Receivable": {
         "English": ["accounts receivable", "trade receivables", "debtor's balance", "amounts owed by customers", "money owed by customers"],
-        "Dutch": ["debiteuren", "handelsvorderingen", "vorderingen", "door klanten verschuldigd geld"]
+        "Dutch": ["debiteuren", "handelsvorderingen", "vorderingen", "door klanten verschuldigd geld"],
+        "balance": "debit",
+        "id": "AccountsReceivable",
+        "category": "assets"
     },
     "Inventories": {
         "English": ["inventories", "stock", "goods", "merchandise", "finished goods", "work in progress", "raw materials"],
-        "Dutch": ["voorraden", "voorraad", "inventaris", "goederenvoorraad", "gereed product", "onderhanden werk", "grondstoffen"]
+        "Dutch": ["voorraden", "voorraad", "inventaris", "goederenvoorraad", "gereed product", "onderhanden werk", "grondstoffen"],
+        "balance": "debit",
+        "id": "Inventories",
+        "category": "assets"
     },
     "Prepaid Expenses": {
         "English": ["prepaid expenses", "costs paid in advance", "accrued income"],
-        "Dutch": ["vooruitbetaalde kosten", "overlopende activa"]
+        "Dutch": ["vooruitbetaalde kosten", "overlopende activa"],
+        "balance": "debit",
+        "id": "PrepaidExpenses",
+        "category": "assets"
     },
     "Property, Plant, and Equipment": {
         "English": ["property, plant, and equipment", "PPE", "fixed assets", "buildings", "machinery", "long-term assets", "physical assets", "tangible fixed assets"],
-        "Dutch": ["materiële vaste activa", "vaste activa", "gebouwen", "machines", "langetermijnactiva", "tastbare vaste activa"]
+        "Dutch": ["materiële vaste activa", "vaste activa", "gebouwen", "machines", "langetermijnactiva", "tastbare vaste activa"],
+        "balance": "debit",
+        "id": "PropertyPlantAndEquipment",
+        "category": "assets"
     },
     "Intangible Assets": {
         "English": ["intangible assets", "goodwill", "patents", "trademarks", "copyrights"],
-        "Dutch": ["immateriële activa", "goodwill", "patenten", "handelsmerken", "auteursrechten"]
+        "Dutch": ["immateriële activa", "goodwill", "patenten", "handelsmerken", "auteursrechten"],
+        "balance": "debit",
+        "id": "IntangibleAssets",
+        "category": "assets"
     },
 
   # Liabilities
     "Current Liabilities": {
         "English": ["short-term liabilities", "current liabilities", "trade creditors", "payments received for not yet delivered services", "loans due within one year", "portion of long-term debt due within next year", "expenses incurred but not yet paid"],
-        "Dutch": ["kortlopende verplichtingen", "actuele verplichtingen", "handelscrediteuren", "ontvangen betalingen voor nog niet geleverde diensten", "leningen die binnen een jaar verschuldigd zijn", "deel van langlopende schuld dat binnen het volgende jaar verschuldigd is", "gemaakte kosten maar nog niet betaald"]
+        "Dutch": ["kortlopende verplichtingen", "actuele verplichtingen", "handelscrediteuren", "ontvangen betalingen voor nog niet geleverde diensten", "leningen die binnen een jaar verschuldigd zijn", "deel van langlopende schuld dat binnen het volgende jaar verschuldigd is", "gemaakte kosten maar nog niet betaald"],
+        "balance": "credit",
+        "id": "CurrentLiabilities",
+        "category": "liabilities"
     },
-    "Long-term Liabilities": {
+   "Long-term Liabilities": {
         "English": ["long-term liabilities", "non-current liabilities", "debentures", "mortgage bonds", "long-term loans", "loans not due within the next year"],
-        "Dutch": ["langlopende verplichtingen", "niet-actuele verplichtingen", "obligaties", "hypothecaire obligaties", "overige leningen", "leningen die niet binnen het volgende jaar verschuldigd zijn"]
+        "Dutch": ["langlopende verplichtingen", "niet-actuele verplichtingen", "obligaties", "hypothecaire obligaties", "overige leningen", "leningen die niet binnen het volgende jaar verschuldigd zijn"],
+        "balance": "credit",
+        "id": "LongTermLiabilities",
+        "category": "liabilities"
     },
-    
-    # Shareholders' Equity
     "Shareholder's Equity": {
         "English": ["stockholder's equity", "owners' equity", "shareholders' funds", "money received from investors", "cumulative earnings not distributed"],
-        "Dutch": ["eigen vermogen", "aandeelhouderskapitaal", "van investeerders ontvangen geld", "cumulatieve winsten niet uitgekeerd"]
+        "Dutch": ["eigen vermogen", "aandeelhouderskapitaal", "van investeerders ontvangen geld", "cumulatieve winsten niet uitgekeerd"],
+        "balance": "credit",
+        "id": "ShareholdersEquity",
+        "category": "equity"
     },
-
-    # Income Statement Items
     "Revenue": {
         "English": ["sales", "income", "turnover", "sales revenue", "net sales", "income from goods sold", "income from services provided"],
-        "Dutch": ["omzet", "inkomsten", "opbrengsten", "netto-omzet", "verkoopopbrengsten", "inkomsten uit verkochte goederen", "inkomsten uit verleende diensten"]
+        "Dutch": ["omzet", "inkomsten", "opbrengsten", "netto-omzet", "verkoopopbrengsten", "inkomsten uit verkochte goederen", "inkomsten uit verleende diensten"],
+        "balance": "credit",
+        "id": "Revenue",
+        "category": "revenue"
     },
     "Expenses": {
         "English": ["cost of sales", "cost of revenue", "direct costs attributable to goods sold", "expenses related to business operations", "rent", "utilities", "salaries", "expense for reduction in value of assets"],
-        "Dutch": ["kostprijs van de verkopen", "kosten van de omzet", "rechtstreekse kosten toe te rekenen aan verkochte goederen", "bedrijfskosten", "huur", "nutsvoorzieningen", "salarissen", "kosten voor waardevermindering van activa"]
+        "Dutch": ["kostprijs van de verkopen", "kosten van de omzet", "rechtstreekse kosten toe te rekenen aan verkochte goederen", "bedrijfskosten", "huur", "nutsvoorzieningen", "salarissen", "kosten voor waardevermindering van activa"],
+        "balance": "debit",
+        "id": "Expenses",
+        "category": "expenses"
     },
+
     "Net Income": {
         "English": ["net profit", "net earnings", "bottom line", "final profit after all expenses", "operating profit", "operating loss", "pre-tax profit", "pre-tax loss", "result after tax"],
-        "Dutch": ["nettowinst", "netto inkomen", "uiteindelijke winst na alle kosten", "bedrijfsresultaat", "exploitatieresultaat", "resultaat voor belasting", "resultaat na belastingen"]
+        "Dutch": ["nettowinst", "netto inkomen", "uiteindelijke winst na alle kosten", "bedrijfsresultaat", "exploitatieresultaat", "resultaat voor belasting", "resultaat na belastingen"],
+        "balance": "debit",
+        "id": "NetIncome",
+        "category": "revenue"        
     } ,
-    "Accounts Payable": {
+    
+     "Accounts Payable": {
         "English": ["accounts payable", "obligations to suppliers"],
-        "Dutch": ["crediteuren", "verplichtingen aan leveranciers"]
+        "Dutch": ["crediteuren", "verplichtingen aan leveranciers"],
+        "balance": "credit",
+        "id": "AccountsPayable",
+        "category": "liabilities"
     },
     "Unearned Revenue": {
         "English": ["unearned revenue", "payments received for goods or services not yet delivered"],
-        "Dutch": ["ontvangen opbrengsten", "vooruitontvangen betalingen voor nog niet geleverde goederen of diensten"]
+        "Dutch": ["ontvangen opbrengsten", "vooruitontvangen betalingen voor nog niet geleverde goederen of diensten"],
+        "balance": "credit",
+        "id": "UnearnedRevenue",
+        "category": "liabilities"
     },
-    "Short-term Debt": {
+     "Short-term Debt": {
         "English": ["short-term debt", "loans and borrowings due within one year"],
-        "Dutch": ["korte-termijnschulden", "leningen en kredieten die binnen een jaar verschuldigd zijn"]
-    },
+        "Dutch": ["korte-termijnschulden", "leningen en kredieten die binnen een jaar verschuldigd zijn"],
+        "balance": "credit",
+        "id": "ShortTermDebt",
+        "category": "liabilities"
+     },
     "Current Portion of Long-term Debt": {
         "English": ["current portion of long-term debt", "the portion of long-term debt due within the next year"],
-        "Dutch": ["kortlopend deel van de langlopende schuld", "deel van de langlopende schuld dat binnen het volgende jaar verschuldigd is"]
+        "Dutch": ["kortlopend deel van de langlopende schuld", "deel van de langlopende schuld dat binnen het volgende jaar verschuldigd is"],
+        "balance": "credit",
+        "id": "CurrentPortionOfLongTermDebt",
+         "category": "liabilities"
     },
     "Other Accrued Expenses and Liabilities": {
         "English": ["other accrued expenses and liabilities", "expenses incurred but not yet paid"],
-        "Dutch": ["overige opgelopen kosten en verplichtingen", "gemaakte kosten maar nog niet betaald"]
+        "Dutch": ["overige opgelopen kosten en verplichtingen", "gemaakte kosten maar nog niet betaald"],
+        "balance": "credit",
+        "id": "OtherAccruedExpensesAndLiabilities",
+        "category": "liabilities"
     },
     "Long-term Debt": {
         "English": ["long-term debt", "loans and borrowings not due within the next year"],
-        "Dutch": ["langlopende schuld", "leningen en kredieten die niet binnen het volgende jaar verschuldigd zijn"]
-    }
-}
-}
+        "Dutch": ["langlopende schuld", "leningen en kredieten die niet binnen het volgende jaar verschuldigd zijn"],
+        "balance": "credit",
+        "id": "LongTermDebt",
+        "category": "liabilities"
+    },
+ }
 
 
 def get_terms(term, language):
