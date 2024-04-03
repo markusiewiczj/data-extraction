@@ -1,4 +1,4 @@
-financial_ledger = {
+financial_ledger= {
     # Assets
     "Cash and Cash Equivalents": {
         "English": ["cash and cash equivalents", "cash", "cash on hand", "liquid assets", "treasury bills", "certificates of deposit", "undeposited receipts", "money market funds"],
@@ -161,6 +161,62 @@ financial_ledger = {
         "balance": "credit",
         "id": "LongTermDebt",
         "category": "liabilities",
+        "statement_type": "balance_sheet"
+    },
+    "Current Receivables": {
+        "English": ["current receivables from other legal entities and companies with a participating interest", "receivables from affiliates", "receivables from associated companies"],
+        "Dutch": ["vorderingen op andere rechtspersonen en vennootschappen met een deelnemingsbelang", "vorderingen op gelieerde ondernemingen", "vorderingen op deelnemende ondernemingen"],
+        "balance": "debit",
+        "id": "CurrentReceivablesFromOtherEntities",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Depreciation of Property, Plant, and Equipment": {
+        "English": ["depreciation of property, plant, and equipment", "depreciation", "amortization of tangible assets"],
+        "Dutch": ["afschrijvingen op materiële vaste activa", "afschrijvingen", "amortisatie van materiële vaste activa"],
+        "balance": "credit",
+        "id": "DepreciationOfPPE",
+        "category": "expenses",
+        "statement_type": "income_statement"
+    },
+    "Inventories under Construction": {
+        "English": ["inventories under construction", "construction in progress", "work in progress"],
+        "Dutch": ["onderhanden werk", "bouw in uitvoering", "werk in uitvoering"],
+        "balance": "debit",
+        "id": "InventoriesUnderConstruction",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Finished and Trade Goods": {
+        "English": ["finished and trade goods", "finished goods", "merchandise", "trading stock"],
+        "Dutch": ["gereed product en handelsgoederen", "afgewerkte producten", "handelswaren", "handelsvoorraad"],
+        "balance": "debit",
+        "id": "FinishedAndTradeGoods",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Total of Inventories": {
+        "English": ["total of inventories", "total inventories", "aggregate inventories"],
+        "Dutch": ["totaal voorraden", "totale voorraden", "geaggregeerde voorraden"],
+        "balance": "debit",
+        "id": "TotalOfInventories",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Receivables Trade Receivables": {
+        "English": ["receivables trade receivables", "trade receivables", "accounts receivable", "debtors"],
+        "Dutch": ["handelsvorderingen", "vorderingen uit handel", "debiteuren", "rekeningen te ontvangen"],
+        "balance": "debit",
+        "id": "ReceivablesTradeReceivables",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Taxes and Social Security Charges": {
+        "English": ["taxes and social security charges", "tax receivables", "government receivables"],
+        "Dutch": ["belastingen en sociale zekerheidsbijdragen", "belastingvorderingen", "overheidsvorderingen"],
+        "balance": "debit",
+        "id": "TaxesAndSocialSecurityCharges",
+        "category": "assets",
         "statement_type": "balance_sheet"
     },
  }
