@@ -41,7 +41,7 @@ financial_ledger= {
         "statement_type": "balance_sheet"
     },
     "Property, Plant, and Equipment": {
-        "English": ["property, plant, and equipment", "PPE", "fixed assets", "buildings", "machinery", "long-term assets", "physical assets", "tangible fixed assets"],
+        "English": ["property, plant, and equipment", "PPE", "fixed assets", "buildings", "machinery", "long-term assets", "physical assets", "tangible fixed assets", "property, plant and equipment machinery"],
         "Dutch": ["materiële vaste activa", "vaste activa", "gebouwen", "machines", "langetermijnactiva", "tastbare vaste activa"],
         "balance": "debit",
         "id": "PropertyPlantAndEquipment",
@@ -107,7 +107,7 @@ financial_ledger= {
 
     # Net Income
     "Net Income": {
-        "English": ["net profit", "net earnings", "bottom line", "final profit after all expenses", "operating profit", "operating loss", "pre-tax profit", "pre-tax loss", "result after tax"],
+        "English": ["net profit", "net earnings", "bottom line", "final profit after all expenses", "operating profit", "operating loss", "pre-tax profit", "pre-tax loss"],
         "Dutch": ["nettowinst", "netto inkomen", "uiteindelijke winst na alle kosten", "bedrijfsresultaat", "exploitatieresultaat", "resultaat voor belasting", "resultaat na belastingen"],
         "balance": "debit",
         "id": "NetIncome",
@@ -172,7 +172,7 @@ financial_ledger= {
         "statement_type": "balance_sheet"
     },
     "Depreciation of Property, Plant, and Equipment": {
-        "English": ["depreciation of property, plant, and equipment", "depreciation", "amortization of tangible assets"],
+        "English": ["depreciation of property, plant, and equipment", "amortisation of property, plant, and equipment" "depreciation", "amortization of tangible assets"],
         "Dutch": ["afschrijvingen op materiële vaste activa", "afschrijvingen", "amortisatie van materiële vaste activa"],
         "balance": "credit",
         "id": "DepreciationOfPPE",
@@ -219,6 +219,159 @@ financial_ledger= {
         "category": "assets",
         "statement_type": "balance_sheet"
     },
+    "not applicable": {
+        "English": ["not applicable", "tax . the text does not mention any category name", " i cannot extract the requested data"],
+        "Dutch" : ["not applicable", "tax . the text does not mention any category name", " i cannot extract the requested data"],
+        "balance": "none",
+        "id": "none",
+        "category": "none",
+        "statement_type": "none"
+    },
+    "Inventories Under Construction": {
+        "English": ["inventories under construction"],
+        "Dutch": ["onderhanden werk"],
+        "balance": "debit",
+        "id": "InventoriesUnderConstruction",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Finished and Trade Goods": {
+        "English": ["finished goods", "trade goods"],
+        "Dutch": ["gereed product", "handelsgoederen"],
+        "balance": "debit",
+        "id": "FinishedAndTradeGoods",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Total of Inventories": {
+        "English": ["total of inventories"],
+        "Dutch": ["totaal voorraden"],
+        "balance": "debit",
+        "id": "TotalOfInventories",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Prepayments and Accrued Income": {
+        "English": ["prepayments", "accrued income"],
+        "Dutch": ["vooruitbetalingen", "overlopende activa"],
+        "balance": "debit",
+        "id": "PrepaymentsAndAccruedIncome",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Total of Current Assets": {
+        "English": ["total of current assets"],
+        "Dutch": ["totaal vlottende activa"],
+        "balance": "debit",
+        "id": "TotalOfCurrentAssets",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Total of Assets": {
+        "English": ["total of assets"],
+        "Dutch": ["totaal activa"],
+        "balance": "debit",
+        "id": "TotalOfAssets",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Group Equity": {
+        "English": ["group equity"],
+        "Dutch": ["groepsvermogen"],
+        "balance": "credit",
+        "id": "GroupEquity",
+        "category": "equity",
+        "statement_type": "balance_sheet"
+    },
+    "Non-Current Liabilities": {
+        "English": ["non-current liabilities", "debentures", "mortgage bonds", "other loans"],
+        "Dutch": ["niet-vlottende passiva", "obligaties", "hypotheekobligaties", "overige leningen"],
+        "balance": "credit",
+        "id": "NonCurrentLiabilities",
+        "category": "liabilities",
+        "statement_type": "balance_sheet"
+    },
+    "Total of Non-Current Liabilities": {
+        "English": ["total of non-current liabilities"],
+        "Dutch": ["totaal niet-vlottende passiva"],
+        "balance": "credit",
+        "id": "TotalOfNonCurrentLiabilities",
+        "category": "liabilities",
+        "statement_type": "balance_sheet"
+    },
+    "Total of Current Liabilities": {
+        "English": ["total of current liabilities"],
+        "Dutch": ["totaal kortlopende passiva"],
+        "balance": "credit",
+        "id": "TotalOfCurrentLiabilities",
+        "category": "liabilities",
+        "statement_type": "balance_sheet"
+    },
+    "Total of Equity and Liabilities": {
+        "English": ["total of equity and liabilities"],
+        "Dutch": ["totaal eigen vermogen en passiva"],
+        "balance": "credit",
+        "id": "TotalOfEquityAndLiabilities",
+        "category": "liabilities",
+        "statement_type": "balance_sheet"
+    },
+    "Severance Payments": {
+        "English": ["severance payments"],
+        "Dutch": ["ontslagvergoedingen"],
+        "balance": "debit",
+        "id": "SeverancePayments",
+        "category": "expenses",
+        "statement_type": "income_statement"
+    },
+    "Total of Expenses of Employee Benefits": {
+        "English": ["total of expenses of employee benefits"],
+        "Dutch": ["totaal personeelskosten"],
+        "balance": "debit",
+        "id": "TotalOfExpensesOfEmployeeBenefits",
+        "category": "expenses",
+        "statement_type": "income_statement"
+    },
+       "Income Tax Expense": {
+        "English": ["income tax expense"],
+        "Dutch": ["inkomstenbelasting"],
+        "balance": "debit",
+        "id": "IncomeTaxExpense",
+        "category": "expenses",
+        "statement_type": "income_statement"
+    },
+    "Share in Results of Participating Interests": {
+        "English": ["share in results of participating interests"],
+        "Dutch": ["deel in resultaten van deelnemende belangen"],
+        "balance": "credit",
+        "id": "ShareInResultsOfParticipatingInterests",
+        "category": "revenue",
+        "statement_type": "income_statement"
+    },
+    "Operating Result": {
+        "English": ["operating result"],
+        "Dutch": ["bedrijfsresultaat"],
+        "balance": "either",
+        "id": "OperatingResult",
+        "category": "result",
+        "statement_type": "income_statement"
+    },
+    "Other Interest Income and Related Income": {
+        "English": ["other interest income and related income", "revenues from other receivables", "other revenues from other receivables"],
+        "Dutch": ["overige rentebaten en soortgelijke opbrengsten", "opbrengsten uit andere vorderingen", "andere opbrengsten uit andere vorderingen"],
+        "balance": "credit",
+        "id": "OtherInterestIncomeAndRelatedIncome",
+        "category": "revenue",
+        "statement_type": "income_statement"
+    },
+    "Interest Expenses and Related Expenses": {
+        "English": ["interest expenses and related expenses", "costs on liabilities", "other interest expenses"],
+        "Dutch": ["rente- en soortgelijke kosten", "kosten voor verplichtingen", "overige rentekosten"],
+        "balance": "debit",
+        "id": "InterestExpensesAndRelatedExpenses",
+        "category": "expenses",
+        "statement_type": "income_statement"
+    }
+
  }
 
 
