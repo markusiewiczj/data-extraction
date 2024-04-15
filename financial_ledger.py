@@ -33,7 +33,7 @@ financial_ledger= {
         "statement_type": "balance_sheet"
     },
     "Prepaid Expenses": {
-        "English": ["prepaid expenses", "costs paid in advance", "accrued income"],
+        "English": ["prepaid expenses", "costs paid in advance"],
         "Dutch": ["vooruitbetaalde kosten", "overlopende activa"],
         "balance": "debit",
         "id": "PrepaidExpenses",
@@ -66,8 +66,9 @@ financial_ledger= {
         "category": "liabilities",
         "statement_type": "balance_sheet"
     },
+    
     "Long-term Liabilities": {
-        "English": ["long-term liabilities", "non-current liabilities", "debentures", "mortgage bonds", "long-term loans", "loans not due within the next year"],
+        "English": ["long-term liabilities", "debentures", "mortgage bonds", "long-term loans", "loans not due within the next year"],
         "Dutch": ["langlopende verplichtingen", "niet-actuele verplichtingen", "obligaties", "hypothecaire obligaties", "overige leningen", "leningen die niet binnen het volgende jaar verschuldigd zijn"],
         "balance": "credit",
         "id": "LongTermLiabilities",
@@ -164,15 +165,25 @@ financial_ledger= {
         "statement_type": "balance_sheet"
     },
     "Current Receivables": {
-        "English": ["current receivables from other legal entities and companies with a participating interest", "receivables from affiliates", "receivables from associated companies"],
+        "English": ["current receivables from other legal entities and companies with a participating interest", "receivables from affiliates", "receivables from associated companies", 'current assets receivables trade receivables', 'receivables trade receivables', 'taxes and social security charges'],
         "Dutch": ["vorderingen op andere rechtspersonen en vennootschappen met een deelnemingsbelang", "vorderingen op gelieerde ondernemingen", "vorderingen op deelnemende ondernemingen"],
         "balance": "debit",
         "id": "CurrentReceivablesFromOtherEntities",
         "category": "assets",
         "statement_type": "balance_sheet"
     },
+    
+    "Total of Receivables": {
+        "English": ["total of receivables", "aggregate receivables", "sum of receivables"],
+        "Dutch": ["totaal vorderingen", "geaggregeerde vorderingen", "som van vorderingen"],
+        "balance": "debit",
+        "id": "TotalOfReceivables",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    
     "Depreciation of Property, Plant, and Equipment": {
-        "English": ["depreciation of property, plant, and equipment", "amortisation of property, plant, and equipment" "depreciation", "amortization of tangible assets"],
+        "English": ["depreciation of property, plant, and equipment", "amortisation of property, plant, and equipment", "depreciation", "amortization of tangible assets", "depreciation of property, plant and equipment"],
         "Dutch": ["afschrijvingen op materiële vaste activa", "afschrijvingen", "amortisatie van materiële vaste activa"],
         "balance": "credit",
         "id": "DepreciationOfPPE",
@@ -220,8 +231,8 @@ financial_ledger= {
         "statement_type": "balance_sheet"
     },
     "not applicable": {
-        "English": ["not applicable", "tax . the text does not mention any category name", " i cannot extract the requested data"],
-        "Dutch" : ["not applicable", "tax . the text does not mention any category name", " i cannot extract the requested data"],
+        "English": ["not applicable", "the text does not mention any category name", " i cannot extract the requested data"],
+        "Dutch" : ["not applicable", " the text does not mention any category name", " i cannot extract the requested data"],
         "balance": "none",
         "id": "none",
         "category": "none",
@@ -284,7 +295,7 @@ financial_ledger= {
         "statement_type": "balance_sheet"
     },
     "Non-Current Liabilities": {
-        "English": ["non-current liabilities", "debentures", "mortgage bonds", "other loans"],
+        "English": ["non-current liabilities", "debentures", "mortgage bonds", "other loans", "debentures", "mortgage bonds", "other loans"],
         "Dutch": ["niet-vlottende passiva", "obligaties", "hypotheekobligaties", "overige leningen"],
         "balance": "credit",
         "id": "NonCurrentLiabilities",
@@ -370,8 +381,71 @@ financial_ledger= {
         "id": "InterestExpensesAndRelatedExpenses",
         "category": "expenses",
         "statement_type": "income_statement"
+    },
+    "Non Current Assets": {
+        "English": ["non-current assets", "other tangible assets", "long-term assets", "fixed assets"],
+        "Dutch": ["niet-vlottende activa", "overige materiële activa", "langetermijnactiva", "vaste activa"],
+        "balance": "debit",
+        "id": "NonCurrentAssets",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Total of Non Current Assets": {
+        "English": ["total of non-current assets", "aggregate non-current assets"],
+        "Dutch": ["totaal niet-vlottende activa", "totaal langetermijnactiva"],
+        "balance": "debit",
+        "id": "TotalOfNonCurrentAssets",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Financial Assets": {
+        "English": ["financial assets", "investment securities", "held-to-maturity investments"],
+        "Dutch": ["financiële activa", "beleggingswaarden", "beleggingen tot einde looptijd"],
+        "balance": "debit",
+        "id": "FinancialAssets",
+        "category": "assets",
+        "statement_type": "balance_sheet"
+    },
+    "Repayment Obligations of Non Current Borrowings": {
+        "English": ["repayment obligations of non-current borrowings", "long-term debt repayments"],
+        "Dutch": ["aflossingsverplichtingen van niet-vlottende leningen", "afbetalingen op langlopende schulden"],
+        "balance": "credit",
+        "id": "RepaymentObligationsOfNonCurrentBorrowings",
+        "category": "liabilities",
+        "statement_type": "balance_sheet"
+    },
+    "Accruals and Deferred Income": {
+        "English": ["accruals and deferred income", "deferred revenues", "accrued liabilities"],
+        "Dutch": ["overlopende passiva en uitgestelde inkomsten", "uitgestelde opbrengsten", "opgelopen verplichtingen"],
+        "balance": "credit",
+        "id": "AccrualsAndDeferredIncome",
+        "category": "liabilities",
+        "statement_type": "balance_sheet"
+    },
+    "Operating Income": {
+        "English": ["other operating income", "total operating income", "business income", "operating revenues", "total operating income net revenue"],
+        "Dutch": ["overige bedrijfsopbrengsten", "totaal bedrijfsopbrengsten", "bedrijfsinkomsten", "exploitatieopbrengsten"],
+        "balance": "credit",
+        "id": "OperatingIncome",
+        "category": "revenue",
+        "statement_type": "income_statement"
+    },
+    "Payables": {
+        "English": ["payables to banks", "payables relating to taxes and social security contributions", "payables to taxes and social security contributions", "payables to social security contributions", "payables relating to taxes and social security contributions value added tax"],
+        "Dutch": ["schulden aan banken", "verplichtingen met betrekking tot belastingen en sociale zekerheidsbijdragen", "btw-verplichtingen"],
+        "balance": "credit",
+        "id": "Payables",
+        "category": "liabilities",
+        "statement_type": "balance_sheet"
+    },
+    "Operating Expenses": {
+        "English": ["operating expenses", "expenses of employee benefits wages", "car and transport costs", "office related expenses", "general expenses", "total of other operating expenses", "administrative expenses", "selling expenses"],
+        "Dutch": ["bedrijfskosten", "personeelskosten lonen", "auto- en transportkosten", "kantoorkosten", "algemene kosten", "totaal overige bedrijfskosten", "administratieve kosten", "verkoopkosten"],
+        "balance": "debit",
+        "id": "OperatingExpenses",
+        "category": "expenses",
+        "statement_type": "income_statement"
     }
-
  }
 
 
