@@ -6,7 +6,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "CashAndCashEquivalents",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode": "240"
     },
     "Marketable Securities": {
         "English": ["marketable securities", "commercial paper", "treasury notes", "money market instruments"],
@@ -14,7 +15,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "MarketableSecurities",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode": "130"
     },
     "Accounts Receivable": {
         "English": ["accounts receivable", "trade receivables", "debtor's balance", "amounts owed by customers", "money owed by customers"],
@@ -22,7 +24,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "AccountsReceivable",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode": "220"
     },
     "Inventories": {
         "English": ["inventories", "stock", "goods", "merchandise", "finished goods", "work in progress", "raw materials"],
@@ -30,7 +33,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "Inventories",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode": "210"
     },
     "Prepaid Expenses": {
         "English": ["prepaid expenses", "costs paid in advance"],
@@ -38,7 +42,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "PrepaidExpenses",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode": "299"
     },
     "Property, Plant, and Equipment": {
         "English": ["property, plant, and equipment", "PPE", "fixed assets", "buildings", "machinery", "long-term assets", "physical assets", "tangible fixed assets", "property, plant and equipment machinery"],
@@ -46,7 +51,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "PropertyPlantAndEquipment",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode": "120"
     },
     "Intangible Assets": {
         "English": ["intangible assets", "goodwill", "patents", "trademarks", "copyrights"],
@@ -54,7 +60,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "IntangibleAssets",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"110"
     },
 
     # Liabilities
@@ -64,7 +71,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "CurrentLiabilities",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode": "450"
     },
     
     "Long-term Liabilities": {
@@ -73,7 +81,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "LongTermLiabilities",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"440"
     },
 
     # Equity
@@ -83,7 +92,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "ShareholdersEquity",
         "category": "equity",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"300"
     },
 
     # Revenue
@@ -93,7 +103,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "Revenue",
         "category": "revenue",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"810"
     },
 
     # Expenses
@@ -103,7 +114,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "Expenses",
         "category": "expenses",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"710"
     },
 
     # Net Income
@@ -113,7 +125,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "NetIncome",
         "category": "revenue",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"900"
     },
     
       "Accounts Payable": {
@@ -122,7 +135,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "AccountsPayable",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_shetraet",
+        "postencode":"455"
     },
     "Unearned Revenue": {
         "English": ["unearned revenue", "payments received for goods or services not yet delivered"],
@@ -130,7 +144,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "UnearnedRevenue",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"450"
     },
     "Short-term Debt": {
         "English": ["short-term debt", "loans and borrowings due within one year"],
@@ -138,7 +153,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "ShortTermDebt",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"450"
     },
     "Current Portion of Long-term Debt": {
         "English": ["current portion of long-term debt", "the portion of long-term debt due within the next year"],
@@ -146,7 +162,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "CurrentPortionOfLongTermDebt",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode": "456"
     },
     "Other Accrued Expenses and Liabilities": {
         "English": ["other accrued expenses and liabilities", "expenses incurred but not yet paid"],
@@ -154,7 +171,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "OtherAccruedExpensesAndLiabilities",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode": "456"
     },
     "Long-term Debt": {
         "English": ["long-term debt", "loans and borrowings not due within the next year"],
@@ -162,7 +180,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "LongTermDebt",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"440"
     },
     "Current Receivables": {
         "English": ["current receivables from other legal entities and companies with a participating interest", "receivables from affiliates", "receivables from associated companies", 'current assets receivables trade receivables', 'receivables trade receivables', 'taxes and social security charges'],
@@ -170,7 +189,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "CurrentReceivablesFromOtherEntities",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"299"
     },
     
     "Total of Receivables": {
@@ -179,16 +199,18 @@ financial_ledger= {
         "balance": "debit",
         "id": "TotalOfReceivables",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode": "1"
     },
     
     "Depreciation of Property, Plant, and Equipment": {
         "English": ["depreciation of property, plant, and equipment", "amortisation of property, plant, and equipment", "depreciation", "amortization of tangible assets", "depreciation of property, plant and equipment"],
         "Dutch": ["afschrijvingen op materiële vaste activa", "afschrijvingen", "amortisatie van materiële vaste activa"],
-        "balance": "credit",
+        "balance": "debit",
         "id": "DepreciationOfPPE",
         "category": "expenses",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"725"
     },
     "Inventories under Construction": {
         "English": ["inventories under construction", "construction in progress", "work in progress"],
@@ -196,7 +218,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "InventoriesUnderConstruction",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"210"
     },
     "Finished and Trade Goods": {
         "English": ["finished and trade goods", "finished goods", "merchandise", "trading stock"],
@@ -204,7 +227,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "FinishedAndTradeGoods",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"210"
     },
     "Total of Inventories": {
         "English": ["total of inventories", "total inventories", "aggregate inventories"],
@@ -212,7 +236,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "TotalOfInventories",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"1"
     },
     "Receivables Trade Receivables": {
         "English": ["receivables trade receivables", "trade receivables", "accounts receivable", "debtors"],
@@ -220,7 +245,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "ReceivablesTradeReceivables",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"220"
     },
     "Taxes and Social Security Charges": {
         "English": ["taxes and social security charges", "tax receivables", "government receivables"],
@@ -228,7 +254,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "TaxesAndSocialSecurityCharges",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"255"
     },
     "not applicable": {
         "English": ["not applicable", "the text does not mention any category name", " i cannot extract the requested data"],
@@ -236,7 +263,8 @@ financial_ledger= {
         "balance": "none",
         "id": "none",
         "category": "none",
-        "statement_type": "none"
+        "statement_type": "none",
+        "postencode":"0"
     },
     "Inventories Under Construction": {
         "English": ["inventories under construction"],
@@ -244,23 +272,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "InventoriesUnderConstruction",
         "category": "assets",
-        "statement_type": "balance_sheet"
-    },
-    "Finished and Trade Goods": {
-        "English": ["finished goods", "trade goods"],
-        "Dutch": ["gereed product", "handelsgoederen"],
-        "balance": "debit",
-        "id": "FinishedAndTradeGoods",
-        "category": "assets",
-        "statement_type": "balance_sheet"
-    },
-    "Total of Inventories": {
-        "English": ["total of inventories"],
-        "Dutch": ["totaal voorraden"],
-        "balance": "debit",
-        "id": "TotalOfInventories",
-        "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"210"
     },
     "Prepayments and Accrued Income": {
         "English": ["prepayments", "accrued income"],
@@ -268,7 +281,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "PrepaymentsAndAccruedIncome",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"299"
     },
     "Total of Current Assets": {
         "English": ["total of current assets"],
@@ -276,7 +290,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "TotalOfCurrentAssets",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"1"
     },
     "Total of Assets": {
         "English": ["total of assets"],
@@ -284,7 +299,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "TotalOfAssets",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"1"
     },
     "Group Equity": {
         "English": ["group equity"],
@@ -292,7 +308,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "GroupEquity",
         "category": "equity",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"410"
     },
     "Non-Current Liabilities": {
         "English": ["non-current liabilities", "debentures", "mortgage bonds", "other loans", "debentures", "mortgage bonds", "other loans"],
@@ -300,7 +317,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "NonCurrentLiabilities",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"440"
     },
     "Total of Non-Current Liabilities": {
         "English": ["total of non-current liabilities"],
@@ -308,7 +326,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "TotalOfNonCurrentLiabilities",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"1"
     },
     "Total of Current Liabilities": {
         "English": ["total of current liabilities"],
@@ -316,7 +335,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "TotalOfCurrentLiabilities",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"1"
     },
     "Total of Equity and Liabilities": {
         "English": ["total of equity and liabilities"],
@@ -324,7 +344,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "TotalOfEquityAndLiabilities",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"1"
     },
     "Severance Payments": {
         "English": ["severance payments"],
@@ -332,7 +353,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "SeverancePayments",
         "category": "expenses",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"715"
     },
     "Total of Expenses of Employee Benefits": {
         "English": ["total of expenses of employee benefits"],
@@ -340,7 +362,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "TotalOfExpensesOfEmployeeBenefits",
         "category": "expenses",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"1"
     },
        "Income Tax Expense": {
         "English": ["income tax expense"],
@@ -348,7 +371,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "IncomeTaxExpense",
         "category": "expenses",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"770"
     },
     "Share in Results of Participating Interests": {
         "English": ["share in results of participating interests"],
@@ -356,7 +380,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "ShareInResultsOfParticipatingInterests",
         "category": "revenue",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"863"
     },
     "Operating Result": {
         "English": ["operating result"],
@@ -364,7 +389,8 @@ financial_ledger= {
         "balance": "either",
         "id": "OperatingResult",
         "category": "result",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"827"
     },
     "Other Interest Income and Related Income": {
         "English": ["other interest income and related income", "revenues from other receivables", "other revenues from other receivables"],
@@ -372,7 +398,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "OtherInterestIncomeAndRelatedIncome",
         "category": "revenue",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"831"
     },
     "Interest Expenses and Related Expenses": {
         "English": ["interest expenses and related expenses", "costs on liabilities", "other interest expenses"],
@@ -380,7 +407,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "InterestExpensesAndRelatedExpenses",
         "category": "expenses",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"730"
     },
     "Non Current Assets": {
         "English": ["non-current assets", "other tangible assets", "long-term assets", "fixed assets"],
@@ -388,7 +416,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "NonCurrentAssets",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"120"
     },
     "Total of Non Current Assets": {
         "English": ["total of non-current assets", "aggregate non-current assets"],
@@ -396,7 +425,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "TotalOfNonCurrentAssets",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"1"
     },
     "Financial Assets": {
         "English": ["financial assets", "investment securities", "held-to-maturity investments"],
@@ -404,7 +434,8 @@ financial_ledger= {
         "balance": "debit",
         "id": "FinancialAssets",
         "category": "assets",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"130"
     },
     "Repayment Obligations of Non Current Borrowings": {
         "English": ["repayment obligations of non-current borrowings", "long-term debt repayments"],
@@ -412,7 +443,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "RepaymentObligationsOfNonCurrentBorrowings",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"440"
     },
     "Accruals and Deferred Income": {
         "English": ["accruals and deferred income", "deferred revenues", "accrued liabilities"],
@@ -420,7 +452,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "AccrualsAndDeferredIncome",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"499"
     },
     "Operating Income": {
         "English": ["other operating income", "total operating income", "business income", "operating revenues", "total operating income net revenue"],
@@ -428,7 +461,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "OperatingIncome",
         "category": "revenue",
-        "statement_type": "income_statement"
+        "statement_type": "income_statement",
+        "postencode":"810"
     },
     "Payables": {
         "English": ["payables to banks", "payables relating to taxes and social security contributions", "payables to taxes and social security contributions", "payables to social security contributions", "payables relating to taxes and social security contributions value added tax"],
@@ -436,7 +470,8 @@ financial_ledger= {
         "balance": "credit",
         "id": "Payables",
         "category": "liabilities",
-        "statement_type": "balance_sheet"
+        "statement_type": "balance_sheet",
+        "postencode":"450"
     },
     "Operating Expenses": {
         "English": ["operating expenses", "expenses of employee benefits wages", "car and transport costs", "office related expenses", "general expenses", "total of other operating expenses", "administrative expenses", "selling expenses"],
@@ -444,8 +479,279 @@ financial_ledger= {
         "balance": "debit",
         "id": "OperatingExpenses",
         "category": "expenses",
-        "statement_type": "income_statement"
-    }
+        "statement_type": "income_statement",
+        "postencode":"735"   
+    },
+    "Requested Capital": {
+    "English": ["requested capital", "called-up share capital", "subscribed capital", "capital called up"],
+    "Dutch": ["gestort en opgevraagd kapitaal", "gestort kapitaal", "opgevraagd kapitaal"],
+    "balance": "credit",
+    "id": "RequestedCapital",
+    "category": "equity",
+    "statement_type": "balance_sheet",
+    "postencode": "310"
+  },
+  "Revaluation Reserve": {
+    "English": ["revaluation reserve", "revaluation surplus", "valuation reserve"],
+    "Dutch": ["herwaarderingsreserve"],
+    "balance": "credit",
+    "id": "RevaluationReserve",
+    "category": "equity",
+    "statement_type": "balance_sheet",
+    "postencode": "330"
+  },
+  "Undivided Profit": {
+    "English": ["undivided profit", "retained earnings", "accumulated profit"],
+    "Dutch": ["onverdeelde winst"],
+    "balance": "credit",
+    "id": "UndividedProfit",
+    "category": "equity",
+    "statement_type": "balance_sheet",
+    "postencode": "360"
+  },
+  "Other Fixed Assets": {
+    "English": ["other fixed assets", "non-current assets", "fixed asset investments"],
+    "Dutch": ["overige vaste activa"],
+    "balance": "debit",
+    "id": "OtherFixedAssets",
+    "category": "assets",
+    "statement_type": "balance_sheet",
+    "postencode": "199"
+  },
+  "Effects": {
+    "English": ["effects", "securities", "financial instruments"],
+    "Dutch": ["effecten"],
+    "balance": "debit",
+    "id": "Effects",
+    "category": "assets",
+    "statement_type": "balance_sheet",
+    "postencode": "230"
+  },
+  "Premium": {
+    "English": ["premium", "share premium", "additional paid-in capital"],
+    "Dutch": ["agio"],
+    "balance": "credit",
+    "id": "Premium",
+    "category": "equity",
+    "statement_type": "balance_sheet",
+    "postencode": "320"
+  },
+  "Lawt And Stat Reserves": {
+    "English": ["lawt. and stat. reserves", "legal reserves", "statutory reserves"],
+    "Dutch": ["wettelijke en statutaire reserves"],
+    "balance": "credit",
+    "id": "LawtAndStatReserves",
+    "category": "equity",
+    "statement_type": "balance_sheet",
+    "postencode": "340"
+  },
+  "Other Reserves": {
+    "English": ["other reserves", "general reserves", "various reserves"],
+    "Dutch": ["overige reserves"],
+    "balance": "credit",
+    "id": "OtherReserves",
+    "category": "equity",
+    "statement_type": "balance_sheet",
+    "postencode": "350"
+  },
+  "Equalization Account": {
+    "English": ["equalization account", "equalization provision"],
+    "Dutch": ["egalisatierekening"],
+    "balance": "debit",
+    "id": "EqualizationAccount",
+    "category": "liabilities",
+    "statement_type": "balance_sheet",
+    "postencode": "420"
+  },
+  "Services": {
+    "English": ["services", "provisions for services"],
+    "Dutch": ["voorzieningen voor diensten"],
+    "balance": "debit",
+    "id": "Services",
+    "category": "liabilities",
+    "statement_type": "balance_sheet",
+    "postencode": "430"
+  },
+  "Third Party Share": {
+    "English": ["third party share", "minority interest"],
+    "Dutch": ["aandeel derden"],
+    "balance": "credit",
+    "id": "ThirdPartyShare",
+    "category": "equity",
+    "statement_type": "balance_sheet",
+    "postencode": "460"
+  },
+  "Sales And Management Costs": {
+    "English": ["sales and management costs", "selling and administrative expenses"],
+    "Dutch": ["verkoop- en beheerskosten"],
+    "balance": "debit",
+    "id": "SalesAndManagementCosts",
+    "category": "expenses",
+    "statement_type": "income_statement",
+    "postencode": "720"
+  },
+  "Charge From Company Exercise": {
+    "English": ["charge from company exercise"],
+    "Dutch": ["belasting uit bedrijfsoefening"],
+    "balance": "debit",
+    "id": "ChargeFromCompanyExercise",
+    "category": "expenses",
+    "statement_type": "income_statement",
+    "postencode": "740"
+  },
+  "Extraordinary Expenses": {
+    "English": ["extraordinary expenses", "exceptional charges"],
+    "Dutch": ["buitengewone lasten"],
+    "balance": "debit",
+    "id": "ExtraordinaryExpenses",
+    "category": "expenses",
+    "statement_type": "income_statement",
+    "postencode": "750"
+  },
+  "Charge on Outdoor Reslts": {
+    "English": ["charge on outdoor results", "extraordinary costs"],
+    "Dutch": ["belasting op buitengewone resultaten"],
+    "balance": "debit",
+    "id": "ChargeOutdoorRsltt",
+    "category": "expenses",
+    "statement_type": "income_statement",
+    "postencode": "760"
+  },
+  "Other Operating Income": {
+    "English": ["other operating income", "miscellaneous operating income"],
+    "Dutch": ["overige bedrijfsopbrengsten"],
+    "balance": "credit",
+    "id": "OvOperatingIncome",
+    "category": "revenue",
+    "statement_type": "income_statement",
+    "postencode": "820"
+  },
+  "Financial Benefits": {
+    "English": ["financial benefits", "financial income", "investment income"],
+    "Dutch": ["financiële baten"],
+    "balance": "credit",
+    "id": "FinancialBenefits",
+    "category": "revenue",
+    "statement_type": "income_statement",
+    "postencode": "830"
+  },
+  "Extraordinary Income": {
+    "English": ["extraordinary income", "non-recurring income", "exceptional income"],
+    "Dutch": ["buitengewone baten"],
+    "balance": "credit",
+    "id": "ExtraordinaryIncome",
+    "category": "revenue",
+    "statement_type": "income_statement",
+    "postencode": "840"
+  },
+  "Result From Share After tax": {
+    "English": ["results from share after tax", "earnings from investments post-tax"],
+    "Dutch": ["resultaat uit deelnemingen na belasting"],
+    "balance": "credit",
+    "id": "ResultFromShareAfterBell",
+    "category": "revenue",
+    "statement_type": "income_statement",
+    "postencode": "860"
+  },
+  "balance of gains and losses after tax": {
+    "English": ["balance of gains and losses after tax", "net gains after tax"],
+    "Dutch": ["saldo van baten en lasten na belasting"],
+    "balance": "credit or debit",
+    "id": "SldOvBtnAndLstnAfterBell",
+    "category": "revenue or expenses",
+    "statement_type": "income_statement",
+    "postencode": "870"
+  },
+  "Third Party Share In Results": {
+    "English": ["third party share in results", "minority interest in profits"],
+    "Dutch": ["aandeel derden in het resultaat"],
+    "balance": "credit",
+    "id": "ThirdPartyShareInResults",
+    "category": "equity",
+    "statement_type": "income_statement",
+    "postencode": "780"
+  },
+  "Balance Loss": {
+    "English": ["balance loss", "net loss"],
+    "Dutch": ["saldo verlies"],
+    "balance": "debit",
+    "id": "BalanceLoss",
+    "category": "expenses",
+    "statement_type": "income_statement",
+    "postencode": "370"
+  },
+  "Sum Of Operating Income": {
+    "English": ["sum of operating income", "total operating revenue"],
+    "Dutch": ["som bedrijfsopbrengsten"],
+    "balance": "credit",
+    "id": "SumOfOperatingIncome",
+    "category": "revenue",
+    "statement_type": "income_statement",
+    "postencode": "805"
+  },
+  "Gross Sales Result": {
+    "English": ["gross sales result", "gross revenue from sales"],
+    "Dutch": ["bruto-omzetresultaat"],
+    "balance": "credit",
+    "id": "GrossSalesResult",
+    "category": "revenue",
+    "statement_type": "income_statement",
+    "postencode": "825"
+  },
+    "Change In Inventories": {
+    "English": ["change in inventories", "inventory adjustments", "stock variations"],
+    "Dutch": ["wijziging in voorraden"],
+    "balance": "credit or debit",
+    "id": "ChangeInInventories",
+    "category": "current assets or expenses",
+    "statement_type": "income_statement",
+    "postencode": "811"
+  },
+  "Activated Production": {
+    "English": ["activated production", "capitalized production", "production costs activated"],
+    "Dutch": ["geactiveerde productie"],
+    "balance": "debit",
+    "id": "ActivatedProduction",
+    "category": "assets",
+    "statement_type": "balance_sheet",
+    "postencode": "812"
+  },
+  "Results From Business Operation Pre Tax": {
+    "English": ["results from business operations before tax", "pre-tax operating profit"],
+    "Dutch": ["resultaat uit bedrijfsoefening voor belasting"],
+    "balance": "credit",
+    "id": "ResultsFromBusinessOperationPreTax",
+    "category": "revenue",
+    "statement_type": "income_statement",
+    "postencode": "835"
+  },
+  "Results From Business Operation Net Of Calls": {
+    "English": ["results from business operations net of calls", "net operating profit after adjustments"],
+    "Dutch": ["resultaat uit bedrijfsoefening na belasting"],
+    "balance": "credit",
+    "id": "ResultsFromBusinessOperationNetOfCalls",
+    "category": "revenue",
+    "statement_type": "income_statement",
+    "postencode": "837"
+  },
+  "Balance Outside Income Expenses": {
+    "English": ["balance of outside income/expenses", "net non-operating income/expenses"],
+    "Dutch": ["saldo van buitengewone baten en lasten"],
+    "balance": "credit or debit",
+    "id": "BalanceOutsideIncomeExpenses",
+    "category": "revenue or expenses",
+    "statement_type": "income_statement",
+    "postencode": "841"
+  },
+  "Extraordinary Results After Tax": {
+    "English": ["extraordinary results after tax", "post-tax extraordinary income"],
+    "Dutch": ["buitengewone resultaten na belasting"],
+    "balance": "credit",
+    "id": "ExtraordinaryResultsAfterTax",
+    "category": "revenue",
+    "statement_type": "income_statement",
+    "postencode": "850"
+  }
  }
 
 
