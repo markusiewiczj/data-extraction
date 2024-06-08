@@ -37,8 +37,8 @@ financial_ledger= {
         "postencode": "210"
     },
     "Prepaid Expenses": {
-        "English": ["prepaid expenses", "costs paid in advance"],
-        "Dutch": ["vooruitbetaalde kosten", "overlopende activa"],
+        "English": ["prepaid expenses", "costs paid in advance", "prepayments"],
+        "Dutch": ["vooruitbetaalde kosten", "overlopende activa", "vooruitbetalingen"],
         "balance": "debit",
         "id": "PrepaidExpenses",
         "category": "assets",
@@ -130,31 +130,31 @@ financial_ledger= {
     },
     
       "Accounts Payable": {
-        "English": ["accounts payable", "obligations to suppliers"],
-        "Dutch": ["crediteuren", "verplichtingen aan leveranciers"],
+        "English": ["accounts payable", "obligations to suppliers", "creditors"],
+        "Dutch": ["crediteuren", "verplichtingen aan leveranciers", "leveranciersschuld"],
         "balance": "credit",
         "id": "AccountsPayable",
         "category": "liabilities",
-        "statement_type": "balance_shetraet",
-        "postencode":"455"
+        "statement_type": "balance_sheet",
+        "postencode": "455"
     },
     "Unearned Revenue": {
-        "English": ["unearned revenue", "payments received for goods or services not yet delivered"],
-        "Dutch": ["ontvangen opbrengsten", "vooruitontvangen betalingen voor nog niet geleverde goederen of diensten"],
+        "English": ["unearned revenue", "payments received for goods or services not yet delivered", "deferred revenue"],
+        "Dutch": ["ontvangen opbrengsten", "vooruitontvangen betalingen voor nog niet geleverde goederen of diensten", "uitgestelde opbrengsten"],
         "balance": "credit",
         "id": "UnearnedRevenue",
         "category": "liabilities",
         "statement_type": "balance_sheet",
-        "postencode":"450"
+        "postencode": "450"
     },
     "Short-term Debt": {
-        "English": ["short-term debt", "loans and borrowings due within one year"],
-        "Dutch": ["korte-termijnschulden", "leningen en kredieten die binnen een jaar verschuldigd zijn"],
+        "English": ["short-term debt", "loans and borrowings due within one year", "current debt"],
+        "Dutch": ["korte-termijnschulden", "leningen en kredieten die binnen een jaar verschuldigd zijn", "lopende schulden"],
         "balance": "credit",
         "id": "ShortTermDebt",
         "category": "liabilities",
         "statement_type": "balance_sheet",
-        "postencode":"450"
+        "postencode": "450"
     },
     "Current Portion of Long-term Debt": {
         "English": ["current portion of long-term debt", "the portion of long-term debt due within the next year"],
@@ -200,7 +200,7 @@ financial_ledger= {
         "id": "TotalOfReceivables",
         "category": "assets",
         "statement_type": "balance_sheet",
-        "postencode": "1"
+        "postencode": "220"
     },
     
     "Depreciation of Property, Plant, and Equipment": {
@@ -237,7 +237,7 @@ financial_ledger= {
         "id": "TotalOfInventories",
         "category": "assets",
         "statement_type": "balance_sheet",
-        "postencode":"1"
+        "postencode":"210"
     },
     "Receivables Trade Receivables": {
         "English": ["receivables trade receivables", "trade receivables", "accounts receivable", "debtors"],
@@ -276,13 +276,13 @@ financial_ledger= {
         "postencode":"210"
     },
     "Prepayments and Accrued Income": {
-        "English": ["prepayments", "accrued income"],
-        "Dutch": ["vooruitbetalingen", "overlopende activa"],
+        "English": ["prepayments", "accrued income", "prepaid income"],
+        "Dutch": ["vooruitbetalingen", "overlopende activa", "vooruitbetaalde inkomsten"],
         "balance": "debit",
         "id": "PrepaymentsAndAccruedIncome",
         "category": "assets",
         "statement_type": "balance_sheet",
-        "postencode":"299"
+        "postencode": "299"
     },
     "Total of Current Assets": {
         "English": ["total of current assets"],
@@ -291,7 +291,7 @@ financial_ledger= {
         "id": "TotalOfCurrentAssets",
         "category": "assets",
         "statement_type": "balance_sheet",
-        "postencode":"1"
+        "postencode":"200"
     },
     "Total of Assets": {
         "English": ["total of assets"],
@@ -303,14 +303,14 @@ financial_ledger= {
         "postencode":"1"
     },
     "Group Equity": {
-        "English": ["group equity"],
-        "Dutch": ["groepsvermogen"],
+        "English": ["group equity", "consolidated equity"],
+        "Dutch": ["groepsvermogen", "geconsolideerd eigen vermogen"],
         "balance": "credit",
         "id": "GroupEquity",
         "category": "equity",
         "statement_type": "balance_sheet",
-        "postencode":"410"
-    },
+        "postencode": "410"
+    }
     "Non-Current Liabilities": {
         "English": ["non-current liabilities", "debentures", "mortgage bonds", "other loans", "debentures", "mortgage bonds", "other loans"],
         "Dutch": ["niet-vlottende passiva", "obligaties", "hypotheekobligaties", "overige leningen"],
@@ -327,7 +327,7 @@ financial_ledger= {
         "id": "TotalOfNonCurrentLiabilities",
         "category": "liabilities",
         "statement_type": "balance_sheet",
-        "postencode":"1"
+        "postencode":"400"
     },
     "Total of Current Liabilities": {
         "English": ["total of current liabilities"],
@@ -336,7 +336,7 @@ financial_ledger= {
         "id": "TotalOfCurrentLiabilities",
         "category": "liabilities",
         "statement_type": "balance_sheet",
-        "postencode":"1"
+        "postencode":"400"
     },
     "Total of Equity and Liabilities": {
         "English": ["total of equity and liabilities"],
@@ -363,7 +363,7 @@ financial_ledger= {
         "id": "TotalOfExpensesOfEmployeeBenefits",
         "category": "expenses",
         "statement_type": "income_statement",
-        "postencode":"1"
+        "postencode":"705"
     },
        "Income Tax Expense": {
         "English": ["income tax expense"],
@@ -426,7 +426,7 @@ financial_ledger= {
         "id": "TotalOfNonCurrentAssets",
         "category": "assets",
         "statement_type": "balance_sheet",
-        "postencode":"1"
+        "postencode":"100"
     },
     "Financial Assets": {
         "English": ["financial assets", "investment securities", "held-to-maturity investments"],
