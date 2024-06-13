@@ -310,7 +310,7 @@ financial_ledger= {
         "category": "equity",
         "statement_type": "balance_sheet",
         "postencode": "410"
-    }
+    },
     "Non-Current Liabilities": {
         "English": ["non-current liabilities", "debentures", "mortgage bonds", "other loans", "debentures", "mortgage bonds", "other loans"],
         "Dutch": ["niet-vlottende passiva", "obligaties", "hypotheekobligaties", "overige leningen"],
