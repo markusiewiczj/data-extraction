@@ -754,15 +754,3 @@ financial_ledger= {
   }
  }
 
-
-def get_terms(term, language):
-    """
-    Retrieve the synonyms and translations for a given term and language.
-    
-    :param term: The financial term to look up (e.g., "Revenue")
-    :param language: The language for synonyms and translations ("English" or "Dutch")
-    :return: A list of terms in the specified language
-    """
-    return financial_ledger.get(term, {}).get(language, [])
-
-
